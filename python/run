@@ -1,0 +1,5 @@
+#!/bin/bash
+
+THISPATH=$(realpath $(dirname $0))
+
+$THISPATH/.venv/bin/python3 $THISPATH/src/main.py
